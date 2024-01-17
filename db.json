@@ -1,14 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Task 1",
+      "finished": false
+    },
+    {
+      "id": 2,
+      "text": "Task 2",
+      "finished": false
+    },
+    {
+      "id": 3,
+      "text": "Task 3",
+      "finished": true
+    },
+    {
+      "id": 4,
+      "text": "Task 4",
+      "finished": false
+    },
+    {
+      "id": 5,
+      "text": "Task 5",
+      "finished": true
+    }
+  ]
   }
-}
